@@ -1,0 +1,14 @@
+MO mux2x32 NULL mux2x32.v vlg59/mux2x32.bin 1401940625
+MO display NULL display.v vlg1E/display.bin 1401940625
+MO regfile NULL regfile.v vlg72/regfile.bin 1401940625
+MO dffe32 NULL dffe32.v vlg16/dffe32.bin 1401940625
+MO mux4x32 NULL mux4x32.v vlg53/mux4x32.bin 1401940625
+MO timer_1ms NULL pbdebounce.v vlg39/timer__1ms.bin 1401940625
+MO mux2x5 NULL mux2x5.v vlg3D/mux2x5.bin 1401940625
+MO mccomp NULL mccomp.v vlg03/mccomp.bin 1401940625
+MO mcmem NULL ipcore_dir/mcmem.v vlg7F/mcmem.bin 1401940625
+MO mccpu NULL mccpu.v vlg44/mccpu.bin 1401940625
+MO pbdebounce NULL pbdebounce.v vlg6F/pbdebounce.bin 1401940625
+MO mccu NULL mccu.v vlg48/mccu.bin 1401940625
+MO dff32 NULL dff32.v vlg19/dff32.bin 1401940625
+MO alu NULL alu.v vlg0A/alu.bin 1401940625

@@ -1,0 +1,18 @@
+# Output products list for <mcmem>
+_xmsgs\pn_parser.xmsgs
+dist_mem_gen_ds322.pdf
+dist_mem_gen_readme.txt
+mcmem.asy
+mcmem.gise
+mcmem.mif
+mcmem.ngc
+mcmem.sym
+mcmem.v
+mcmem.veo
+mcmem.vhd
+mcmem.vho
+mcmem.xco
+mcmem.xise
+mcmem_flist.txt
+mcmem_readme.txt
+mcmem_xmdf.tcl

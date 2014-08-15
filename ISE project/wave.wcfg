@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/3120101980/multi/muti_cpu/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/test/q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q[2:0]</obj_property>
+      <obj_property name="ObjectShortName">q[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/alu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/adr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/tom" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tom[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tom[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/fromm" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fromm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fromm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/resetn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/mem_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_clk</obj_property>
+      <obj_property name="ObjectShortName">mem_clk</obj_property>
+   </wvobject>
+</wave_config>

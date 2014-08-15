@@ -1,0 +1,3 @@
+NEWPROJECT "E:/3120101980/multi/muti_cpu/ipcore_dir/coregen.cgp"
+SETPROJECT "E:/3120101980/multi/muti_cpu/ipcore_dir/coregen.cgp"
+LAUNCHXCO "E:/3120101980/multi/muti_cpu/ipcore_dir/mcmem.xco"

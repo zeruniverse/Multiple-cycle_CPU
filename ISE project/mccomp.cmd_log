@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "E:/3120101980/multi/muti_cpu/mccomp.xst" -ofn "E:/3120101980/multi/muti_cpu/mccomp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc3s200-ft256-4 mccomp.ngc mccomp.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mccomp_map.ncd mccomp.ngd mccomp.pcf 
+xst -intstyle ise -ifn "E:/3120101980/multi/muti_cpu/mccomp.xst" -ofn "E:/3120101980/multi/muti_cpu/mccomp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc ucf.ucf -p xc3s200-ft256-4 mccomp.ngc mccomp.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o mccomp_map.ncd mccomp.ngd mccomp.pcf 
+par -w -intstyle ise -ol high -t 1 mccomp_map.ncd mccomp.ncd mccomp.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mccomp.twx mccomp.ncd -o mccomp.twr mccomp.pcf -ucf ucf.ucf 
+bitgen -intstyle ise -f mccomp.ut mccomp.ncd 
